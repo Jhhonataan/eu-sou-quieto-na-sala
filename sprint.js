@@ -4,8 +4,11 @@ let nome = prompt("qual seu nome ?  " )
  let nomeproduto = prompt("qual produto você quer? ")
  let preco = number(prompt("qual o preço ?  "))
  let quantidade =number(prompt("quanto você quer ?  "))
+ const subtotal =
+preco * quantidade;
  console.log("cliente: ", nome)
  console.log("numero: ", numpedido)
  console.log("produdo:  ", nomeproduto)
  console.log("valor:  ")
 console.log("quantidade:  ",quantidade)
+
