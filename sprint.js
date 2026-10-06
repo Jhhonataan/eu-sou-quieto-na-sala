@@ -1,9 +1,9 @@
-let nome = "joão"
- let numpedido = 1374910332
+let nome = prompt("qual seu nome ?  " )
+ let numpedido = Number(prompt("qual o numero do seu pedido ?   "))
  const nomelanchonete ="lanchetech"
- let nomeproduto = "coxinha"
- let preco = 2 
- let quantidade = 12
+ let nomeproduto = prompt("qual produto você quer? ")
+ let preco = number(prompt("qual o preço ?  "))
+ let quantidade =number(prompt("quanto você quer ?  "))
  console.log("cliente: ", nome)
  console.log("numero: ", numpedido)
  console.log("produdo:  ", nomeproduto)
